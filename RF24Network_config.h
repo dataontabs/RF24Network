@@ -33,7 +33,7 @@
      * @note: This buffer can now be any size > 24. Previously need to be a multiple of 24.
      * @note: If used with RF24Ethernet, this value is used to set the buffer sizes.
      */
-    #define MAX_PAYLOAD_SIZE  2040 //1514
+    #define MAX_PAYLOAD_SIZE  4080 //1514
 
     /** The size of the main buffer. This is the user-cache, where incoming data is stored.
      * Data is stored using Frames: Header (8-bytes) + Frame_Size (2-bytes) + Data (?-bytes)
